@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AirOne Overview on AirOne</title>
-    <link>https://userlocalhost.github.io/airone/</link>
-    <description>Recent content in AirOne Overview on AirOne</description>
+    <title>AirOne</title>
+    <link>http://airone-doc.dmmlabs.com/</link>
+    <description>Recent content on AirOne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://userlocalhost.github.io/airone/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://airone-doc.dmmlabs.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Installation</title>
-      <link>https://userlocalhost.github.io/airone/getting-started/installation/</link>
-      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      <title>Changelog</title>
+      <link>http://airone-doc.dmmlabs.com/release_note/CHANGELOG/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://userlocalhost.github.io/airone/getting-started/installation/</guid>
-      <description>Installation of AirOne (TBD)</description>
+      <guid>http://airone-doc.dmmlabs.com/release_note/CHANGELOG/</guid>
+      <description>in development Fixed  Fixed a bug not to change referral values when entity was edited  v2.4.0 Changed  Change implementation about editing Entity to disable to edit type of EntityAttr  v2.3.1 Fixed  Fixed a problem that date value won&amp;rsquo;t be shown at advanced search result  v2.3.0 Added  Added new AttributeType array group that could contain multiple Group referral in an Attribute value  v2.2.0 Added  Added a method in Entry to get an AttributeValue from Entry object with a small number of SQL  v2.</description>
+    </item>
+    
+    <item>
+      <title>Installation and Configuration</title>
+      <link>http://airone-doc.dmmlabs.com/getting_started/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://airone-doc.dmmlabs.com/getting_started/installation/</guid>
+      <description>(TBD)</description>
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>https://userlocalhost.github.io/airone/getting-started/tutorial/</link>
-      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      <link>http://airone-doc.dmmlabs.com/getting_started/tutorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://userlocalhost.github.io/airone/getting-started/tutorial/</guid>
-      <description>Tutorial (TBD)</description>
+      <guid>http://airone-doc.dmmlabs.com/getting_started/tutorial/</guid>
+      <description>(TBD)</description>
     </item>
     
     <item>
-      <title>Changelog</title>
-      <link>https://userlocalhost.github.io/airone/post/changelog/</link>
-      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      <title>CustomView</title>
+      <link>http://airone-doc.dmmlabs.com/advanced/custom_view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://userlocalhost.github.io/airone/post/changelog/</guid>
-      <description>v2.2.0 Added  Added a method in Entry to get an AttributeValue from Entry object with a small number of SQL  v2.1.0 Added  Added an API endpoint that returns change history of specific entry&amp;rsquo;s attribute. Added a feature to be able to confirm job of deleting entry from Job list view (#10)  v2.0.1 Fixed  Fixed a bug that mandatory parameter was able to be updated with empty value by specifying &amp;lsquo;- NOT SET -&amp;rsquo; value (#20)  v2.</description>
+      <guid>http://airone-doc.dmmlabs.com/advanced/custom_view/</guid>
+      <description>(TBD)</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://airone-doc.dmmlabs.com/getting_started/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://airone-doc.dmmlabs.com/getting_started/overview/</guid>
+      <description>(TBD)</description>
     </item>
     
   </channel>

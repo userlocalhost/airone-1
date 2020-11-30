@@ -3,41 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://userlocalhost.github.io/airone/getting-started/installation/</loc>
-    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+    <loc>http://airone-doc.dmmlabs.com/advanced/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://userlocalhost.github.io/airone/getting-started/tutorial/</loc>
-    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+    <loc>http://airone-doc.dmmlabs.com/release_note/CHANGELOG/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://userlocalhost.github.io/airone/</loc>
-    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+    <loc>http://airone-doc.dmmlabs.com/getting_started/installation/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://userlocalhost.github.io/airone/post/changelog/</loc>
-    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+    <loc>http://airone-doc.dmmlabs.com/posts/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://userlocalhost.github.io/airone/getting-started/</loc>
-    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+    <loc>http://airone-doc.dmmlabs.com/release_note/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://userlocalhost.github.io/airone/post/</loc>
-    <lastmod>2020-08-25T00:00:00+00:00</lastmod>
+    <loc>http://airone-doc.dmmlabs.com/getting_started/tutorial/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://userlocalhost.github.io/airone/categories/</loc>
+    <loc>http://airone-doc.dmmlabs.com/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://userlocalhost.github.io/airone/tags/</loc>
+    <loc>http://airone-doc.dmmlabs.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://airone-doc.dmmlabs.com/advanced/custom_view/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://airone-doc.dmmlabs.com/getting_started/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://airone-doc.dmmlabs.com/getting_started/overview/</loc>
+    <lastmod>2020-11-27T23:41:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://airone-doc.dmmlabs.com/tags/</loc>
   </url>
   
 </urlset>
