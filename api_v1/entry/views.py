@@ -75,18 +75,20 @@ class EntryReferredAPI(APIView):
 
     @airone_profile
     def get(self, request):
+        # set each request parameters to description variables
+        param_entity = request.query_params.get('entity')
         param_entry = request.query_params.get('entry')
+        param_verbose = request.query_params.get('verbose')
+
+        # validate input parameter
         if not param_entry:
             return Response({'result': 'Parameter "entry" is mandatory'},
                             status=status.HTTP_400_BAD_REQUEST)
 
-        # if entity param exists, add schema name to reduce filter execution time
-        param_entity = request.query_params.get('entity')
+        # declare query to send DB according to input parameters
+        request_query = Q(name=param_entry, is_active=True)
         if param_entity:
-            entry_list = Entry.objects.filter(name=param_entry, is_active=True,
-                                              schema__name=param_entity)
-        else:
-            entry_list = Entry.objects.filter(name=param_entry, is_active=True)
+            request_query &= Q(schema_name=param_entity)
 
         ret_data = []
 
@@ -96,7 +98,7 @@ class EntryReferredAPI(APIView):
         if param_target_entity:
             target_entity = Entity.objects.filter(name=param_target_entity, is_active=True).first()
 
-        for entry in entry_list:
+        for entry in Entry.objects.filter(request_query):
             ret_data.append({
                 'id': entry.id,
                 'entity': {'id': entry.schema.id, 'name': entry.schema.name},
@@ -105,9 +107,9 @@ class EntryReferredAPI(APIView):
                     'name': x.name,
                     'entity': {
                         # because getting the schema of the referral entry is slow
-                        'id': target_entity.id if target_entity else x.schema.id,
-                        'name': target_entity.name if target_entity else x.schema.name
-                    },
+                        'id': x.schema.id,
+                        'name': x.schema.name
+                    } if param_verbose else {},
                 } for x in entry.get_referred_objects(entity_name=param_target_entity)]
             })
         return Response({'result': ret_data}, content_type='application/json; charset=UTF-8')
