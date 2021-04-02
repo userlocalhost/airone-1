@@ -109,7 +109,7 @@ jobs:
 
   pep8:
     docker:
-      - image: circleci/python:3.5
+      - image: circleci/python:3.6
     environment:
       TOXENV: "pep8"
     steps:
