@@ -5,6 +5,8 @@
 ### Fixed
 * Fixed not being redirected to the original URL after login
 * Fixed the log message was not output to django.log
+* Fixed the problem that wrong search result will be returned
+  when there is white-space in a search-keyword (#109)
 
 ## v2.7.0
 
